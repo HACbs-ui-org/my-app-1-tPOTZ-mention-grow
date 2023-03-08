@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-vobr
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:5290ac93b9d2d4b40e0fed5df400d5d1417916ef8217de42febed72fddfd43c5
+        name: my-nodejs
+        resources: {}
+status: {}
