@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vobr
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:5290ac93b9d2d4b40e0fed5df400d5d1417916ef8217de42febed72fddfd43c5
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:9137f74106b6c611de06aaf44dd9e5d8a8e42a0fb4879f822cdfe7a1fa4ced90
         name: my-nodejs
         ports:
         - containerPort: 3001
