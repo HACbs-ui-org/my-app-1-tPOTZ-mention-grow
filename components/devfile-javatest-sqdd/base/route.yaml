@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: devfile-javatest-sqdd
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: devfile-javatest-sqdd
+    app.kubernetes.io/part-of: my-app-1
+  name: devfile-javatest-sqdd
+  namespace: karthik-jk-tenant
+spec:
+  port:
+    targetPort: 8081
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: devfile-javatest-sqdd
+    weight: 100
+status: {}
