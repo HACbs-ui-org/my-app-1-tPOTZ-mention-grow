@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-javatest-sqdd
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-javatest-sqdd
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:1344b160de12a445f7b7f9194a5fda260a95c4de83a19e4be6580e13bc47ebc9
         name: my-java-springboot
         ports:
         - containerPort: 8081
