@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-otzv
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-dc-metro-map-otzv
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:1549978bf85281a69bcc1c5d00571f12852928b3f71eb124cad61ba7adf080ff
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
