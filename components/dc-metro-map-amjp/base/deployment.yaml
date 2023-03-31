@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-amjp
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c7fc9aa9ea5f5c54549146bc73be1eadf9d1612f4cafaa193c8c9ba1c64e35bd
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:4dc05cae383b1e885179d1d6cedf5745d60bfd5d0c7ace5bb5f47c6500209ec0
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
