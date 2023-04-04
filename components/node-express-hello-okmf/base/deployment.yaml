@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: node-express-hello-okmf
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:0e2420c3a659cad8d6435d4faf327c95289cf87f2dfff2244e9059d2f5084ca1
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:22de57a43acbe195e289a1d8a672cec474b9a34736ec93520e71b9d14be86558
         name: my-nodejs
         ports:
         - containerPort: 3001
